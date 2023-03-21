@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obiekty+Konstruktor", "Semestr2_Lekcja3_2023\Obiekty+Konstruktor.csproj", "{710339F9-18B3-4E8A-AF45-FB2EBBC3AC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dziedziczenie", "Dziedziczenie\Dziedziczenie.csproj", "{E59F844E-8D0D-4FE9-BF38-0B9D7F5674D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{710339F9-18B3-4E8A-AF45-FB2EBBC3AC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710339F9-18B3-4E8A-AF45-FB2EBBC3AC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710339F9-18B3-4E8A-AF45-FB2EBBC3AC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710339F9-18B3-4E8A-AF45-FB2EBBC3AC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59F844E-8D0D-4FE9-BF38-0B9D7F5674D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59F844E-8D0D-4FE9-BF38-0B9D7F5674D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59F844E-8D0D-4FE9-BF38-0B9D7F5674D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59F844E-8D0D-4FE9-BF38-0B9D7F5674D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DF95CBD-F6A2-438B-AFEB-5CA4922B3049}
+	EndGlobalSection
+EndGlobal
