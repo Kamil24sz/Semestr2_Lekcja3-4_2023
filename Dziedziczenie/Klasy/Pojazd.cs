@@ -23,9 +23,15 @@ namespace Dziedziczenie.Klasy
         }
 
         //Metody
-        public void Info()
+        public override string ToString()
         {
-            Console.WriteLine($"Pojazd marki {Marka} w kolorze {Kolor} o mocy {Moc}KM");
+            return $"Pojazd marki {Marka} w kolorze {Kolor} o mocy {Moc}KM";
         }
+        public virtual void UruchomSilnik()
+        {
+            Console.WriteLine("Silnik pojazdu uruchomiony");
+            CzySilnikWłączony = true;
+        }
+
     }
 }

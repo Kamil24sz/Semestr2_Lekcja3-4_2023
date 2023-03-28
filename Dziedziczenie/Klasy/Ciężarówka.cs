@@ -17,5 +17,14 @@ namespace Dziedziczenie.Klasy
             ŁadownośćPrzyczepy = ładownośćPrzyczepy;
         }
 
+        //nadpisywanie metod
+        public override void UruchomSilnik()
+        {
+            Console.WriteLine("Silnik 1 włączony");
+            Console.WriteLine("Silnik 2 włączony");
+
+            CzySilnikWłączony = true;
+        }
+
     }
 }
